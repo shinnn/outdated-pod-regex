@@ -1,6 +1,6 @@
 {
   "name": "outdated-pod-regex",
-  "version": "1.0.0",
+  "version": "2.0.0-0",
   "description": "Create a regex that matches the Pod list generated with `pod outdated`",
   "repository": "shinnn/outdated-pod-regex",
   "author": "Watanabe Shinnosuke (https://github.com/shinnn)",
