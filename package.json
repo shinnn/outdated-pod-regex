@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Create a regex that matches the Pod list generated with `pod outdated`",
   "repository": "shinnn/outdated-pod-regex",
-  "author": "Shinnosuke Watanabe (https://github.com/shinnn)",
+  "author": "Watanabe Shinnosuke (https://github.com/shinnn)",
   "scripts": {
     "pretest": "eslint --fix --config @shinnn/node --env browser browser.js index.js test.js",
     "test": "node --strong_mode --throw-deprecation --track-heap-objects test.js | tap-spec",
@@ -22,9 +22,7 @@
     "regex",
     "regexp",
     "match",
-    "detect",
-    "client-side",
-    "browser"
+    "detect"
   ],
   "devDependencies": {
     "@shinnn/eslint-config-node": "^2.0.0",
